@@ -1,0 +1,45 @@
+$bg-color: #6a48a2;
+$font-color: #fff;
+$primary-color: #785ca6;
+
+body {
+  background: $bg-color;
+  color: $font-color;
+}
+
+.navbar {
+  border-bottom: $primary-color 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url("../img/womanchild.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  .home-inner {
+    padding-top: 150px;
+  }
+}
+
+#services-head-section {
+}
+
+#providers-head-section {
+}
+
+#about-head-section {
+}
+
+#insurance-head-section {
+}
+
+#contact-head-section {
+}
+
+#portal-head-section {
+}
+
+#contact-head-section {
+}
