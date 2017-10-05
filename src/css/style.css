@@ -7,6 +7,9 @@ body {
   border-bottom: #d9c1ff 3px solid;
   opacity: 0.8; }
 
+.modal {
+  color: #000000; }
+
 #home-section {
   background: url("../img/womanchild.jpeg") no-repeat;
   background-size: cover;
@@ -33,8 +36,12 @@ body {
   padding-bottom: 0px; }
 
 #services-head-section img {
-  padding-top: 5px;
-  padding-bottom: 20px; }
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 20px; }
+
+#services-head-section img:hover {
+  border: 3px solid #d9c1ff; }
 
 #about-head-section {
   background-color: #785ca6; }

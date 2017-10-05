@@ -18,6 +18,9 @@ body {
   opacity: 0.8;
 }
 
+.modal {
+  color: $font-sec-color;
+}
 #home-section {
   background: url("../img/womanchild.jpeg") no-repeat;
   background-size: cover;
@@ -51,8 +54,13 @@ body {
     padding-bottom: 0px;
   }
   img {
-    padding-top: 5px;
-    padding-bottom: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  img:hover {
+    border: 3px solid $secondary-color;
   }
 }
 
