@@ -4,8 +4,9 @@ body {
 
 .navbar {
   background-color: #785ca6;
-  border-bottom: #d9c1ff 3px solid;
-  opacity: 0.8; }
+  border-bottom: #d9c1ff 3px solid; }
+  .navbar a {
+    color: #000000; }
 
 .modal {
   color: #000000; }

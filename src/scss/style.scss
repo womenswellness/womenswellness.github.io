@@ -15,7 +15,9 @@ body {
 .navbar {
   background-color: $primary-color;
   border-bottom: $secondary-color 3px solid;
-  opacity: 0.8;
+  a {
+    color: $font-sec-color;
+  }
 }
 
 .modal {
