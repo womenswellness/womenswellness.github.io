@@ -4,7 +4,7 @@ body {
 
 .navbar {
   background-color: #785ca6;
-  border-bottom: #785ca6 3px solid;
+  border-bottom: #d9c1ff 3px solid;
   opacity: 0.8; }
 
 #home-section {
@@ -29,11 +29,32 @@ body {
   background-attachment: fixed;
   min-height: 700px; }
 
+#services-head-section h1 {
+  padding-bottom: 0px; }
+
+#services-head-section img {
+  padding-top: 5px;
+  padding-bottom: 20px; }
+
 #about-head-section {
-  background-color: #d9c1ff; }
+  background-color: #785ca6; }
+  #about-head-section li {
+    list-style-type: none; }
 
 #contact-head-section {
   background: url("../img/womandan.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px; }
+
+#contact-head-section .footer {
+  background-color: #d9c1ff; }
+
+#contact-head-section h1 {
+  color: #000000;
+  opacity: 0.9; }
+
+#contact-head-section p {
+  color: #785ca6;
+  padding: 0px;
+  margin-bottom: 0px; }

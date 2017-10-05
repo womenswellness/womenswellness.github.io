@@ -14,7 +14,7 @@ body {
 
 .navbar {
   background-color: $primary-color;
-  border-bottom: $primary-color 3px solid;
+  border-bottom: $secondary-color 3px solid;
   opacity: 0.8;
 }
 
@@ -47,10 +47,20 @@ body {
 }
 
 #services-head-section {
+  h1 {
+    padding-bottom: 0px;
+  }
+  img {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
 }
 
 #about-head-section {
-  background-color: $secondary-color;
+  background-color: $primary-color;
+  li {
+    list-style-type: none;
+  }
 }
 
 #insurance-head-section {
@@ -67,4 +77,16 @@ body {
 }
 
 #contact-head-section {
+  .footer {
+    background-color: $secondary-color;
+  }
+  h1 {
+    color: $font-sec-color;
+    opacity: 0.9;
+  }
+  p {
+    color: $primary-color;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
 }
