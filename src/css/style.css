@@ -3,6 +3,7 @@ body {
   color: #fff; }
 
 .navbar {
+  background-color: #785ca6;
   border-bottom: #785ca6 3px solid;
   opacity: 0.8; }
 
@@ -11,5 +12,28 @@ body {
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
   #home-section .home-inner {
     padding-top: 150px; }
+
+#providers-head-section {
+  color: #fff;
+  background: url("../img/womanbaby.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+
+#about-head-section {
+  background-color: #d9c1ff; }
+
+#contact-head-section {
+  background: url("../img/womandan.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }

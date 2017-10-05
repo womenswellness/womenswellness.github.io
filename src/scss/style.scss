@@ -1,6 +1,11 @@
 $bg-color: #6a48a2;
 $font-color: #fff;
+$font-sec-color: #000000;
 $primary-color: #785ca6;
+$secondary-color: #d9c1ff;
+$third-color: #969345;
+$fourth-color: #e3e095;
+$dark-overlay: rgba(0, 0, 0, 0.2);
 
 body {
   background: $bg-color;
@@ -8,6 +13,7 @@ body {
 }
 
 .navbar {
+  background-color: $primary-color;
   border-bottom: $primary-color 3px solid;
   opacity: 0.8;
 }
@@ -18,24 +24,43 @@ body {
   background-attachment: fixed;
   min-height: 700px;
 
+  .dark-overlay {
+    background-color: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+  }
+
   .home-inner {
     padding-top: 150px;
   }
 }
 
+#providers-head-section {
+  color: $font-color;
+  background: url("../img/womanbaby.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
 #services-head-section {
 }
 
-#providers-head-section {
-}
-
 #about-head-section {
+  background-color: $secondary-color;
 }
 
 #insurance-head-section {
 }
 
 #contact-head-section {
+  background: url("../img/womandan.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
 }
 
 #portal-head-section {
