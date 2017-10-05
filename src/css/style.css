@@ -1,10 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Roboto");
 body {
   background: #6a48a2;
   color: #fff; }
 
+h1 {
+  font-family: "Dancing Script"; }
+
+p,
+a {
+  font-family: "Roboto"; }
+
 .navbar {
+  padding: 0;
   background-color: #785ca6;
   border-bottom: #d9c1ff 3px solid; }
+  .navbar img {
+    width: auto;
+    height: 100px;
+    margin: 0; }
   .navbar a {
     color: #000000; }
 
@@ -23,6 +36,9 @@ body {
     left: 0;
     width: 100%;
     min-height: 700px; }
+  #home-section .btn {
+    background-color: #d9c1ff;
+    column-rule: #785ca6; }
   #home-section .home-inner {
     padding-top: 150px; }
 
@@ -34,7 +50,7 @@ body {
   min-height: 700px; }
 
 #services-head-section h1 {
-  padding-bottom: 0px; }
+  padding-bottom: 0; }
 
 #services-head-section img {
   cursor: pointer;
@@ -46,8 +62,6 @@ body {
 
 #about-head-section {
   background-color: #785ca6; }
-  #about-head-section li {
-    list-style-type: none; }
 
 #contact-head-section {
   background: url("../img/womandan.jpeg") no-repeat;
@@ -64,5 +78,5 @@ body {
 
 #contact-head-section p {
   color: #785ca6;
-  padding: 0px;
-  margin-bottom: 0px; }
+  padding: 0;
+  margin-bottom: 0; }
