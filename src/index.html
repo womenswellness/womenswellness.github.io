@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -37,7 +38,7 @@
 
 
           <li class="nav-item">
-            <a href="#about-head-section" class="nav-link">About</a>
+            <a href="#office-head-section" class="nav-link">Office Hours</a>
           </li>
 
           <!-- <li class="nav-item">
@@ -69,6 +70,9 @@
             </div>
             <div class="col-lg-4">
 
+              <h2 class="text-right ">Women’s Wellness at Flower Mound</h2>
+              <h5 class="text-right">Comprehensive health care services never forgetting that our patient is a person. We know how important it is to find a woman’s health provider you trust.</h5>
+
 
             </div>
           </div>
@@ -85,7 +89,7 @@
   <section id="services-head-section">
     <div class="container">
       <div class="col text-center">
-        <div class="py-5">
+        <div class="py-4">
           <h1 class="display-4">Services</h1>
         </div>
 
@@ -93,7 +97,6 @@
 
           <div class="col-md-3">
             <h6>OBSTETRIC</h6>
-
             <img src="img/baby.jpeg" alt="" class="img-fluid" data-toggle="modal" data-target="#obstetricmodal">
           </div>
 
@@ -122,37 +125,68 @@
   <section id="providers-head-section">
     <div class="container">
       <div class="col text-center">
-        <div class="py-5">
+        <div class="py-4">
           <h1 class="display-4">Providers</h1>
         </div>
 
   </section>
 
-  <!-- About -->
+  <!-- Office Info -->
 
-  <section id="about-head-section">
+  <section id="office-head-section">
     <div class="container">
       <div class="col text-center">
-        <div class="py-5">
+        <div class="py-4">
 
           <div class="container-fluid">
-            <h4 class="display-4">Clinic Hours</h4>
-            <ul class="list-unstyled">
-              <li>Monday & Wednesday 8:30 -4:30 (phones off @ 4 pm)</li>
-              <li>Tuesday & Thursday 8:30 - 6:00 (phones off @ 4 pm)</li>
-              <li>Friday 8:30 - 4:30 (phones off @ 3 pm)</li>
-              <li>Every 2nd & 4th Saturday 9:00 - 12:00 (phones off)</li>
-              <li>Sunday Closed</li>
-            </ul>
-            <p>Closed for Lunch: 12:00 - 1:30 Phone calls after 2 pm will be returned next business day.Phones are off on 2nd & 4th Saturday Clinic. Messages are checked throughout clinic hours. </p>
-          </div>
+            <h1 class="display-4">Clinic Hours</h1>
 
-          <p>Office 972-355-9436 * Fax 214-513-2244​​</p>
-          <p>3051 Churchill Drive • Suite 220 • Flower Mound, TX 75022</p>
+            <div class="row">
+              <div class="col-lg-4">
+
+                <blockquote class="blockquote text-left">
+                  <p>Monday & Wednesday 8:30 -4:30</p>
+                  <footer class="blockquote-footer">(phones off @ 4 pm)</footer>
+                </blockquote>
+
+                <blockquote class="blockquote text-left">
+                  <p>Tuesday & Thursday 8:30 - 6:00</p>
+                  <footer class="blockquote-left">(phones off @ 4 pm)</footer>
+                </blockquote>
+
+                <blockquote class="blockquote text-left">
+                  <p>Friday 8:30 - 4:30</p>
+                  <footer class="blockquote-footer">(phones off @ 3 pm)</footer>
+                </blockquote>
+
+                <blockquote class="blockquote text-left">
+                  <p>Every 2nd & 4th Saturday 9:00 - 12:00</p>
+                  <footer class="blockquote-footer">(phones off)</footer>
+                </blockquote>
+
+                <blockquote class="blockquote text-left">
+                  <p>Sunday Closed</p>
+                </blockquote>
+
+                <p>Closed for Lunch: 12:00 - 1:30 Phone calls after 2 pm will be returned next business day.Phones are off on 2nd & 4th Saturday Clinic. Messages are checked throughout clinic hours. </p>
+              </div>
+
+            <div class="col-lg-8">
+              <div class="address">
+
+                <p><strong>Office 972-355-9436 * Fax 214-513-2244</strong>​​</p>
+                <p>3051 Churchill Drive • Suite 220 • Flower Mound, TX 75022</p>
+                <div class="text-align-center">
+                  <a href="https://www.facebook.com/Drparoski/">
+                  <i class="fa fa-facebook"></i>
+                </div>
+
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
-          <a href="https://www.facebook.com/Drparoski/">
-            <i class="fa fa-facebook"></i>
           </a>
         </div>
 
@@ -255,7 +289,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Modal Title</h5>
+          <h5 class="modal-title">WOMEN'S WELLNESS</h5>
           <button class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
@@ -312,7 +346,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Modal Title</h5>
+          <h5 class="modal-title">SURGERIES</h5>
           <button class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
@@ -385,7 +419,7 @@
         </div>
         <div class="modal-body">
 
-          <form action="">
+          <form id="contact-form" action="/" method="post">
             <div class="form-group">
               <label for="firstname">First Name</label>
               <input type="text" class="form-control" placeholder="First Name" required>
@@ -402,23 +436,22 @@
             </div>
 
             <div class="form-group">
-              <label for="subject">Subject</label>
-              <input type="text" class="form-control" placeholder="Subject" required>
+              <label for="subject">Phone</label>
+              <input type="text" class="form-control" placeholder="Phone" required>
             </div>
 
             <div class="form-group">
               <label for="message">Message</label>
-            <textarea id="message" rows="3" class="form-control"></textarea>
+              <textarea id="message" rows="3" class="form-control"></textarea>
             </div>
 
-          </form>
-
-          </div>
+        </div>
 
         <div class="modal-footer">
           <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-          <button class="btn btn-primary">Submit</button>
+          <button name="submit" type="submit" class="btn btn-primary" id="contact-submit">Submit</button>
         </div>
+        </form>
       </div>
     </div>
   </div>

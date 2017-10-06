@@ -1,13 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto");
 body {
   background: #6a48a2;
   color: #fff; }
 
-h1 {
-  font-family: "Dancing Script"; }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway"; }
 
-p,
-a {
+a,
+p {
   font-family: "Roboto"; }
 
 .navbar {
@@ -41,6 +45,8 @@ a {
     column-rule: #785ca6; }
   #home-section .home-inner {
     padding-top: 150px; }
+  #home-section h4 {
+    text-align: right; }
 
 #providers-head-section {
   color: #fff;
@@ -60,23 +66,28 @@ a {
 #services-head-section img:hover {
   border: 3px solid #d9c1ff; }
 
-#about-head-section {
+#office-head-section {
   background-color: #785ca6; }
-
-#contact-head-section {
-  background: url("../img/womandan.jpeg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 700px; }
-
-#contact-head-section .footer {
-  background-color: #d9c1ff; }
-
-#contact-head-section h1 {
-  color: #000000;
-  opacity: 0.9; }
-
-#contact-head-section p {
-  color: #785ca6;
-  padding: 0;
-  margin-bottom: 0; }
+  #office-head-section footer,
+  #office-head-section p {
+    margin: 0;
+    font-size: 0.75em;
+    text-align: justify; }
+  #office-head-section footer {
+    color: #000000; }
+  #office-head-section #contact-head-section {
+    background: url("../img/womandan.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px; }
+  #office-head-section #contact-head-section .footer {
+    background-color: #d9c1ff; }
+  #office-head-section #contact-head-section h1 {
+    color: #000000;
+    opacity: 0.9; }
+  #office-head-section #contact-head-section p {
+    color: #785ca6;
+    padding: 0;
+    margin-bottom: 0; }
+  #office-head-section #contact-head-section .address {
+    text-align: center; }
