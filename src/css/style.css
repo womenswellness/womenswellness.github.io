@@ -73,6 +73,9 @@ p {
   background-size: cover;
   background-attachment: fixed;
   min-height: 700px; }
+  #providers-head-section img {
+    margin-top: 30px;
+    width: 300px; }
 
 #services-head-section h1 {
   padding-bottom: 0; }
