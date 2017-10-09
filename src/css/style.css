@@ -30,9 +30,15 @@ p {
 .modal {
   color: #000000; }
 
+.awards {
+  width: 100px;
+  height: auto;
+  padding-top: 175px;
+  margin-left: 10px; }
+
 #home-section {
   background: url("../img/womanchild.jpeg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   min-height: 700px; }
   #home-section .dark-overlay {
