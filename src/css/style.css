@@ -23,6 +23,8 @@ p {
     height: 100px;
     margin: 0; }
   .navbar a {
+    color: #fff; }
+  .navbar .dropdown-item {
     color: #000000; }
 
 .modal {

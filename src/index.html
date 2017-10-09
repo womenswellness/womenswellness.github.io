@@ -15,7 +15,7 @@
 <body id="home">
 
   <!-- NavBar Menu -->
-  <nav class="navbar navbar-expand-sm  navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-sm   fixed-top">
     <div class="container">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
         <span class="navbar-toggler-icon"></span>
@@ -41,9 +41,16 @@
             <a href="#office-head-section" class="nav-link">Clinic Hours</a>
           </li>
 
-          <!-- <li class="nav-item">
-            <a href="#insurance-head-section" class="nav-link">Insurance</a>
-          </li> -->
+          <li class="nav-item dropdown">
+            <a href="#insurance-head-section" class="nav-link dropdown-toggle" data-toggle="dropdown">Insurance</a>
+            <div class="dropdown-menu">
+              <a href="" class="dropdown-item">New Patient</a>
+              <a href="" class="dropdown-item">Established Patient</a>
+              <a href="#response"
+              class="dropdown-item"
+              data-toggle="modal" data-target="response">Responsibilities</a>
+            </div>
+          </li>
 
 
           <li class="nav-item">
@@ -171,14 +178,14 @@
                 <p>Closed for Lunch: 12:00 - 1:30 Phone calls after 2 pm will be returned next business day.Phones are off on 2nd & 4th Saturday Clinic. Messages are checked throughout clinic hours. </p>
               </div>
 
-            <div class="col-lg-8">
-              <div class="address">
+              <div class="col-lg-8">
+                <div class="address">
 
-                <p><strong>Office 972-355-9436 * Fax 214-513-2244</strong>​​</p>
-                <p>3051 Churchill Drive • Suite 220 • Flower Mound, TX 75022</p>
+                  <p><strong>Office 972-355-9436 * Fax 214-513-2244</strong>​​</p>
+                  <p>3051 Churchill Drive • Suite 220 • Flower Mound, TX 75022</p>
 
-                <div class="text-align-center">
-                  <a href="https://www.facebook.com/Drparoski/">
+                  <div class="text-align-center">
+                    <a href="https://www.facebook.com/Drparoski/">
                   <i class="fa fa-facebook"></i>
                 </div>
 
@@ -189,7 +196,7 @@
         </div>
         <div>
           </a>
-        </div>
+                  </div>
 
   </section>
 
@@ -402,13 +409,27 @@
 
   <!-- Insurance -->
 
-  <!-- <section id="insurance-head-section">
-    <div class="container">
-      <div class="col text-center">
-        <div class="py-5">
-          <h1 class="display-4">Insurance</h1>
+  <div class="modal" id="response">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+          <button class="close" data-dismiss="modal">&times;</button>
         </div>
-  </section> -->
+        <div class="modal-body">
+          <div class="list-group">
+            <div class="d-flex w-100 justify-content-between">
+              <h6>Responsibilities</h6>
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Contact -->
   <div class="modal" id="contact">

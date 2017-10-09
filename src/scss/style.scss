@@ -41,6 +41,10 @@ p {
   border-bottom: $secondary-color 3px solid;
 
   a {
+    color: $font-color;
+  }
+
+  .dropdown-item {
     color: $font-sec-color;
   }
 }
