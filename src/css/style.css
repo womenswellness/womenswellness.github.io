@@ -72,10 +72,11 @@ p {
   background: url("../img/womanbaby.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 600px;
+  min-height: 700px;
   text-shadow: 1px 1px #d9c1ff; }
   #providers-head-section img {
-    margin: 30px; }
+    margin: 30px;
+    width: 200px; }
   #providers-head-section h5 {
     margin-top: 10px; }
 
