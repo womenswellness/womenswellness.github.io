@@ -88,6 +88,21 @@ p {
   }
 }
 
+.address {
+  text-align: center;
+
+  img {
+    margin-top: 30px;
+    height: 150px;
+    width: auto;
+  }
+  .fa {
+    margin: 75px;
+    color: $font-color;
+    font-size: 3em;
+  }
+}
+
 #providers-head-section {
   color: $font-color;
   background: url("../img/womanbaby.jpeg") no-repeat;

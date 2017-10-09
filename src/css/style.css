@@ -56,6 +56,17 @@ p {
   #home-section h4 {
     text-align: right; }
 
+.address {
+  text-align: center; }
+  .address img {
+    margin-top: 30px;
+    height: 150px;
+    width: auto; }
+  .address .fa {
+    margin: 75px;
+    color: #fff;
+    font-size: 3em; }
+
 #providers-head-section {
   color: #fff;
   background: url("../img/womanbaby.jpeg") no-repeat;
