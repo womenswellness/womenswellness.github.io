@@ -1,7 +1,6 @@
 // imports
 @import url("https://fonts.googleapis.com/css?family=Raleway|Roboto");
-// vairables
-$bg-color: #6a48a2;
+// vairable
 $font-color: #fff;
 $font-sec-color: #000000;
 $primary-color: #785ca6;
@@ -13,7 +12,7 @@ $text-font: "Roboto";
 $headline-font: "Raleway";
 
 body {
-  background: $bg-color;
+  background: $primary-color;
   color: $font-color;
 }
 
@@ -61,7 +60,7 @@ p {
 }
 #home-section {
   background: url("../img/womanchild.jpeg") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   min-height: 700px;
 
@@ -108,10 +107,13 @@ p {
   background: url("../img/womanbaby.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px;
+  min-height: 600px;
+  text-shadow: 1px 1px $secondary-color;
   img {
-    margin-top: 30px;
-    width: 300px;
+    margin: 30px;
+  }
+  h5 {
+    margin-top: 10px;
   }
 }
 
@@ -133,34 +135,23 @@ p {
 
 #office-head-section {
   background-color: $primary-color;
-
-  footer,
   p {
-    margin: 0;
-    font-size: 0.75em;
     text-align: justify;
+    margin-bottom: 0px;
   }
-
   footer {
     color: $font-sec-color;
   }
-
-  #insurance-head-section {
-  }
-
-  #contact-head-section {
-    background: url("../img/womandan.jpeg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 700px;
-  }
-
-  #portal-head-section {
+  .address {
+    margin-top: 30px;
   }
 
   #contact-head-section {
     .footer {
       background-color: $secondary-color;
+    }
+    .blockquote-footer {
+      color: $font-sec-color;
     }
 
     h1 {

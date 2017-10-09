@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway|Roboto");
 body {
-  background: #6a48a2;
+  background: #785ca6;
   color: #fff; }
 
 h1,
@@ -38,7 +38,7 @@ p {
 
 #home-section {
   background: url("../img/womanchild.jpeg") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   min-height: 700px; }
   #home-section .dark-overlay {
@@ -72,10 +72,12 @@ p {
   background: url("../img/womanbaby.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px; }
+  min-height: 600px;
+  text-shadow: 1px 1px #d9c1ff; }
   #providers-head-section img {
-    margin-top: 30px;
-    width: 300px; }
+    margin: 30px; }
+  #providers-head-section h5 {
+    margin-top: 10px; }
 
 #services-head-section h1 {
   padding-bottom: 0; }
@@ -90,20 +92,17 @@ p {
 
 #office-head-section {
   background-color: #785ca6; }
-  #office-head-section footer,
   #office-head-section p {
-    margin: 0;
-    font-size: 0.75em;
-    text-align: justify; }
+    text-align: justify;
+    margin-bottom: 0px; }
   #office-head-section footer {
     color: #000000; }
-  #office-head-section #contact-head-section {
-    background: url("../img/womandan.jpeg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 700px; }
+  #office-head-section .address {
+    margin-top: 30px; }
   #office-head-section #contact-head-section .footer {
     background-color: #d9c1ff; }
+  #office-head-section #contact-head-section .blockquote-footer {
+    color: #000000; }
   #office-head-section #contact-head-section h1 {
     color: #000000;
     opacity: 0.9; }
