@@ -1,6 +1,5 @@
 // imports
-@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto");
-// vairable
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto"); // vairable
 $font-color: #fff;
 $font-sec-color: #000000;
 $primary-color: #785ca6;
@@ -53,11 +52,12 @@ p {
 }
 
 .awards {
-  width: 100px;
+  width: 125px;
   height: auto;
-  padding-top: 175px;
+  margin-top: 150px;
   margin-left: 10px;
 }
+
 #home-section {
   background: url("../img/womanchild.jpeg") no-repeat;
   background-size: cover;
@@ -87,21 +87,6 @@ p {
   }
 }
 
-.address {
-  text-align: center;
-
-  img {
-    margin-top: 30px;
-    height: 150px;
-    width: auto;
-  }
-  .fa {
-    margin: 75px;
-    color: $font-color;
-    font-size: 3em;
-  }
-}
-
 #providers-head-section {
   color: $font-color;
   background: url("../img/womanbaby.jpeg") no-repeat;
@@ -109,10 +94,12 @@ p {
   background-attachment: fixed;
   min-height: 700px;
   text-shadow: 1px 1px $secondary-color;
+
   img {
     margin: 30px;
     width: 200px;
   }
+
   h5 {
     margin-top: 10px;
   }
@@ -136,38 +123,49 @@ p {
 
 #office-head-section {
   background-color: $primary-color;
+
   p {
     text-align: justify;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
+
   footer {
     color: $font-sec-color;
   }
-  .address {
+
+  img {
     margin-top: 30px;
+    height: 100px;
   }
 
-  #contact-head-section {
-    .footer {
-      background-color: $secondary-color;
-    }
-    .blockquote-footer {
-      color: $font-sec-color;
-    }
+  .address {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .fa {
+    margin: 50px;
+    color: $font-color;
+    font-size: 3em;
+  }
+}
 
-    h1 {
-      color: $font-sec-color;
-      opacity: 0.9;
-    }
+#contact-head-section {
+  .footer {
+    background-color: $secondary-color;
+  }
 
-    p {
-      color: $primary-color;
-      padding: 0;
-      margin-bottom: 0;
-    }
+  .blockquote-footer {
+    color: $font-sec-color;
+  }
 
-    .address {
-      text-align: center;
-    }
+  h1 {
+    color: $font-sec-color;
+    opacity: 0.9;
+  }
+
+  p {
+    color: $primary-color;
+    padding: 0;
+    margin-bottom: 0;
   }
 }
